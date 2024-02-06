@@ -1,0 +1,25 @@
+{
+    "name": "mooncake",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Forairaaaaa/mooncake.git"
+    },
+    "frameworks": [
+        "arduino",
+        "espidf",
+        "*"
+    ],
+    "platforms": "espressif32",
+    "build": {
+        "libArchive": false,
+        "flags": [
+            "-Isrc/spdlog/",
+            "-Isrc/spdlog/include/",
+            "-Isrc/spdlog/include/cfg/",
+            "-Isrc/spdlog/include/details/",
+            "-Isrc/spdlog/include/fmt/",
+            "-Isrc/spdlog/include/fmt/bundles/",
+            "-Isrc/spdlog/include/sinks/"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "infrared_tools",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "build": {
+        "libArchive": false,
+        "flags": [
+            "-Iinclude/"
+        ]
+    }
+}

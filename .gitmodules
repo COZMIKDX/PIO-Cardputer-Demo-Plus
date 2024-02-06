@@ -1,0 +1,6 @@
+[submodule "lib/arduino"]
+	path = lib/arduino
+	url = https://github.com/espressif/arduino-esp32.git
+[submodule "lib/ESP8266Audio"]
+	path = lib/ESP8266Audio
+	url = https://github.com/WuSiYu/ESP8266Audio
