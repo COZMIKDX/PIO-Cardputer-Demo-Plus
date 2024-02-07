@@ -14,7 +14,6 @@
 #include <iostream>
 #include <string>
 
-
 namespace MOONCAKE
 {
     namespace APPS
@@ -52,4 +51,14 @@ namespace MOONCAKE
             void deleteApp(void *app) override { delete (BootAnim_ASCII*)app; }
         };
     }
+}
+
+namespace MOONCAKE::APPS
+{
+    const std::string BootAnim_ASCII::_mooncake_ascii_logo = R"(
+ _____ _____ _____ _____ _____ _____ _____ _____
+|     |     |     |   | |     |  _  |  |  |   __|
+| | | |  |  |  |  | | | |   --|     |    -|   __|
+|_|_|_|_____|_____|_|___|_____|__|__|__|__|_____|
+)";
 }

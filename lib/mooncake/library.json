@@ -19,7 +19,8 @@
             "-Isrc/spdlog/include/details/",
             "-Isrc/spdlog/include/fmt/",
             "-Isrc/spdlog/include/fmt/bundles/",
-            "-Isrc/spdlog/include/sinks/"
+            "-Isrc/spdlog/include/sinks/",
+            "-Iapps/common_apps/boot_anim_ascii/"
         ]
     }
 }
