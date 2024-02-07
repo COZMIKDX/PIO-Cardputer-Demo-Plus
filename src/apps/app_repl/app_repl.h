@@ -20,7 +20,7 @@
 
 extern "C"
 {
-    #include <pikaScript.h>
+    #include "pikapython/pikascript-api/pikaScript.h"
 }
 
 
