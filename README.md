@@ -15,11 +15,11 @@ I would like to make this use M5Unified and M5GFX at some point.
 
 ## A bit of setup:
 
-Download the project and open it in Platform.io.
-Create a git repo in the project directory if you don't have one yet.
-Install the git submodules: Run the commands "git submodule init" and then "git submodule update".
-If it the Arduino and ESP8266Audio folders are still empty, you may need to open the .gitmodules folder and copy the github links and run "git submodule paste-link-here" for each submodule.
-Note: We may not need the Arduino submodule. I think Platform.io installs a usable arduino esp32 core but I haven't tested it yet.
+- Download the project and open it in Platform.io.
+- Create a git repo in the project directory if you don't have one yet.
+- Install the git submodules: Run the commands "git submodule init" and then "git submodule update".
+- If it the Arduino and ESP8266Audio folders are still empty, you may need to open the .gitmodules folder and copy the github links and run "git submodule paste-link-here" for each - submodule.
+  - Note: We may not need the Arduino submodule. I think Platform.io installs a usable arduino esp32 core but I haven't tested it yet.
 
 # M5Cardputer-UserDemo-Plus
 
